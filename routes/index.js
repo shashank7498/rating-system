@@ -5,7 +5,7 @@ const  riderController=require('../controller/rider_Controller');
 
 
 console.log("router is loaded");
-// calling the action user  from the home_Controller.js using the route homeController
+
 router.get('/',function(req, res){
     return  res.render('home',{
         title:"Home"

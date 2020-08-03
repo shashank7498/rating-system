@@ -1,0 +1,19 @@
+
+    <!DOCTYPE <html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <title>Rating System</title>
+        </head>
+        <body>
+          <h2>Rider's Page <h2>
+            <% var riderId=13; %>
+            <% var userId=13; %>
+          <form action="/rider/updateRating/?id=<%= userId %>&id1=<%= riderId %>" method="POST">
+            <label for="quantity">Rating  for user (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+            <button type="submit">Submit</button>
+          </form>
+          
+        </body>
+        </html>

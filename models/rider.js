@@ -18,7 +18,7 @@ const riderschema=  new mongoose.Schema({
     timestamps:true
 });
 const Rider= mongoose.model('Rider', riderschema);
-// now export this Task collection
+// now export this Rider collection
 module.exports=Rider;
 
 

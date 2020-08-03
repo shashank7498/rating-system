@@ -19,7 +19,7 @@ const userschema=  new mongoose.Schema({
 });
 //   creating the User (the name of collection of userschema)
 const User= mongoose.model('User', userschema);
-// now export this Task collection
+// now export this User collection
 module.exports=User;
 
 

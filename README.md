@@ -1,5 +1,5 @@
 # summary
-##Rating System
+## Rating System
 - After the end of a typical ride at Oye! Rickshaw the passenger is presented with the option to rate a ride.As a part of this exercise we would like you to design and implement the backend of a rating service.The solution should support
 - 1.The passenger should be able to rate a given ride.
 - 2.The driver should be able to see aggregated rating of his all rides
